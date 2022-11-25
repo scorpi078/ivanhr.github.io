@@ -195,10 +195,10 @@ h1:hover span {
 
 
 .main__btn {
-    font-size: 1rem;
+    font-size: 1.5rem;
     padding: 13px 30px;
     border: none;
-    color: #fff;
+    background-color: transparent;
     margin-top: 2rem;
     cursor: pointer;
     position: relative;
@@ -210,7 +210,7 @@ h1:hover span {
 .main__btn a {
     position: relative;
     z-index: 2;
-    color: black;
+    color: orange;
     text-decoration: none;
 }
 
@@ -225,7 +225,7 @@ h1:hover span {
     left: 0;
     width: 0;
     height: 100%;
-    background: orange;
+    background: white;
     transition: all 0.4s;
     border-radius: 2px;
 }
